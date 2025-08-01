@@ -1,0 +1,16 @@
+{
+  "name": "custom-link-button",
+  "label": "Custom Link Button",
+  "description": "Кнопка с настраиваемым стилем, SVG и ссылкой для EXB.",
+  "author": "Ilkhom Khamdamov",
+  "dependencies": [],
+  "version": "1.0.0",
+  "exbVersion": "1.10.0",
+  "type": "widget",
+  "properties": {
+    "hasSettingPage": true,
+    "hasBuilderSupportModule": false
+  },
+  "runtime": "src/runtime/widget",
+  "setting": "src/setting/setting"
+}

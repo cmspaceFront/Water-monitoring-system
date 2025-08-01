@@ -1,0 +1,57 @@
+{
+  "rootId": "custom-link-button",
+  "name": "custom-link-button",
+  "label": "Custom Link Button",
+  "version": "1.0.0",
+  "type": "widget",
+  "exbVersion": "1.11.0",
+  "author": "you",
+  "description": "Кнопка с SVG, стилями, hover, загрузкой SVG по URL, полностью управляется из UI.",
+  "properties": {
+    "hasSettingPage": true,
+    "hasStyle": true
+  },
+  "link": { "type": "string" },
+  "buttonText": { "type": "string" },
+  "svgMode": { "type": "string", "enum": ["fill", "fit", "stretch"] },
+  "svgUrl": { "type": "string" },
+  "buttonStyle": {
+    "type": "object",
+    "properties": {
+      "background": { "type": "string" },
+      "color": { "type": "string" },
+      "borderRadius": { "type": "number" },
+      "padding": { "type": "string" },
+      "fontSize": { "type": "number" },
+      "width": { "type": "string" },
+      "height": { "type": "string" },
+      "borderColor": { "type": "string" },
+      "borderWidth": { "type": "string" },
+      "borderStyle": { "type": "string" }
+    }
+  },
+  "buttonHoverStyle": {
+    "type": "object",
+    "properties": {
+      "background": { "type": "string" },
+      "color": { "type": "string" },
+      "borderColor": { "type": "string" }
+    }
+  },
+  "svgStyle": {
+    "type": "object",
+    "properties": {
+      "width": { "type": "number" },
+      "height": { "type": "number" }
+    }
+  },
+  "imageSize": {
+    "type": "object",
+    "properties": {
+      "width": { "type": "number" },
+      "height": { "type": "number" }
+    }
+  },
+  "imagePosition": { "type": "string", "enum": ["center", "left", "right", "top", "bottom"] },
+  "maintainAspectRatio": { "type": "boolean" }
+} 

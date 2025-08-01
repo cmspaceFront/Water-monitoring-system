@@ -1,0 +1,12 @@
+{
+  "name": "theme-toggler",
+  "label": "Theme Toggle",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "supportDataSource": true,
+  "useDataSourcesEnabled": true,
+  "hasSettingPage": true,
+  "settingUri": "setting/setting",
+  "properties": {}
+}

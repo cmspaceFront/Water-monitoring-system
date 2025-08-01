@@ -1,0 +1,119 @@
+{
+  "rootId": "line-graph",
+  "name": "line-graph",
+  "label": "Line Chart Widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "exbVersion": "1.11.0",
+  "author": "you",
+  "description": "Multilingual responsive line chart with UI style control",
+  "properties": {
+    "hasSettingPage": true,
+    "hasStyle": true
+  },
+  "style": {
+    "styleConfig": {
+      "useCustom": {
+        "type": "boolean"
+      },
+      "themeStyle": {
+        "type": "object",
+        "properties": {
+          "quickStyleType": {
+            "type": "string",
+            "enum": ["default", "primary", "secondary", "danger"]
+          }
+        }
+      }
+    }
+  },
+    "availableYears": {
+    "type": "array",
+    "items": { "type": "number" },
+    "title": "Доступные года",
+    "description": "Список годов, которые показывать в дропдауне"
+  },
+  "xAxisField": {
+    "type": "string",
+    "title": "X Axis Field"
+  },
+  "yAxisField": {
+    "type": "string",
+    "title": "Y Axis Field"
+  },
+  "propertiesConfig": {
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": { "type": "string" },
+          "label": { "type": "string" },
+          "color": { "type": "string" },
+          "pointColor": { "type": "string" },
+          "strokeWidth": { "type": "number" },
+          "pointRadius": { "type": "number" },
+          "show": { "type": "boolean" },
+          "lineStyle": {
+            "type": "string",
+            "enum": ["monotone", "linear", "step", "basis"]
+          }
+        }
+      }
+    },
+
+    "chartTitle": { "type": "string" },
+    "chartTitleRu": { "type": "string" },
+    "chartTitleUzCryl": { "type": "string" },
+    "chartTitleFontFamily": { "type": "string" },
+    "chartTitleFontSize": { "type": "number" },
+    "chartTitlePaddingTop": { "type": "number" },
+    "chartTitleAlign": {
+      "type": "string",
+      "enum": ["left", "center", "right"]
+    },
+
+    "textColor": { "type": "string" },
+    "bgColor": { "type": "string" },
+
+    "tooltipBg": { "type": "string" },
+    "tooltipTextColor": { "type": "string" },
+    "legendTextColor": { "type": "string" },
+
+    "showGrid": { "type": "boolean" },
+    "showLegend": { "type": "boolean" },
+    "showTooltip": { "type": "boolean" },
+
+    "zoomEnabled": { "type": "boolean" },
+    "fullscreenEnabled": { "type": "boolean" },
+    "fullscreenBtnSize": { "type": "number" },
+    "fullscreenBtnBgColor": { "type": "string" },
+    "fullscreenBtnTextColor": { "type": "string" },
+      "yearComparisonEnabled": false,
+
+    "fullscreenBtnIconSize": {
+      "type": "number",
+      "default": 16
+    },
+    "fullscreenBtnPosition": {
+      "type": "string",
+      "enum": ["top-left", "top-right", "bottom-left", "bottom-right"]
+    },
+
+    "borderTopLeftRadius": { "type": "string" },
+    "borderTopRightRadius": { "type": "string" },
+    "borderBottomLeftRadius": { "type": "string" },
+    "borderBottomRightRadius": { "type": "string" },
+
+    "borderRadius": { "type": "string" },
+    "borderWidth": { "type": "string" },
+    "borderStyle": { "type": "string" },
+    "borderColor": { "type": "string" },
+    "hoverBorderColor": { "type": "string" },
+
+    "padding": { "type": "string" },
+    "fontSize": { "type": "string" },
+    "width": { "type": "string" },
+    "height": { "type": "string" }
+  }
+}

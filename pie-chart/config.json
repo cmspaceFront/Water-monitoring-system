@@ -1,0 +1,14 @@
+{
+  "name": "pie-chart",
+  "label": "Pie Chart",
+  "platform": "EXB",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "your-name",
+  "description": "Pie Chart виджет с анимацией и настраиваемыми стилями.",
+  "dependencies": [
+    "jimu-core",
+    "jimu-ui"
+  ],
+  "license": "MIT"
+}

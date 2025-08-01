@@ -1,0 +1,12 @@
+{
+  "name": "alphabit-sort",
+  "label": "Alphabet Sort",
+  "platform": "EXB",
+  "version": "1.0.0",
+  "exbVersion": "1.16.0",
+  "author": "Daddy",
+  "description": "Widget to sort items A-Z or Z-A, i18n, remembers in localStorage.",
+  "properties": {
+    "configurable": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "pie-chart",
+  "label": "Pie Chart",
+  "description": "Pie Chart виджет с eCharts и UI настройками.",
+  "author": "Ilkhom Khamdamov",
+  "icon": "icon.svg",
+  "exported": false,
+  "uiVersion": "1.14.0",
+  "version": "1.0.0",
+  "defaultSize": [
+    6,
+    6
+  ],
+  "properties": {
+    "hasSettingPage": true,
+    "hasBuilderSupportModule": false
+  },
+  "dataSource": true,
+  "supportDataAction": false,
+  "supportDataSource": true,
+  "widgetProps": [
+    "useDataSources"
+  ]
+}

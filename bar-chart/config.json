@@ -1,0 +1,78 @@
+{
+  "rootId": "bar-chart",
+  "name": "bar-chart",
+  "label": "Bar Chart Widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "exbVersion": "1.11.0",
+  "author": "you",
+  "description": "Универсальный bar chart с поддержкой тем, цветов, шрифтов, padding, радиусов, темной темы и т.д.",
+  "properties": {
+    "hasSettingPage": true,
+    "hasStyle": true
+  },
+  "style": {
+    "styleConfig": {
+      "themeStyle": {
+        "type": "object",
+        "properties": {
+          "quickStyleType": {
+            "type": "string",
+            "enum": ["default", "primary", "secondary", "danger"]
+          }
+        }
+      }
+    }
+  },
+  "chartTitle": { "type": "string" },
+  "chartTitleFontFamily": { "type": "string" },
+  "chartTitleFontSize": { "type": "number" },
+  "chartTitleAlign": { "type": "string", "enum": ["left", "center", "right"] },
+  "textColor": { "type": "string" },
+  "bgColor": { "type": "string" },
+  "borderRadius": { "type": "string" },
+  "borderWidth": { "type": "string" },
+  "borderStyle": { "type": "string" },
+  "borderColor": { "type": "string" },
+  "padding": { "type": "string" },
+  "fontSize": { "type": "string" },
+  "width": { "type": "string" },
+  "height": { "type": "string" },
+  "showLegend": { "type": "boolean" },
+  "legendTextColor": { "type": "string" },
+  "legendFontFamily": { "type": "string" },
+  "legendFontSize": { "type": "number" },
+  "showTooltip": { "type": "boolean" },
+  "tooltipBg": { "type": "string" },
+  "tooltipTextColor": { "type": "string" },
+  "tooltipFontFamily": { "type": "string" },
+  "tooltipFontSize": { "type": "number" },
+  "enableDarkTheme": { "type": "boolean" },
+  "darkThemeBgColor": { "type": "string" },
+  "darkThemeTextColor": { "type": "string" },
+  "darkThemeBorderColor": { "type": "string" },
+  "darkThemeLegendTextColor": { "type": "string" },
+  "darkThemeTooltipBg": { "type": "string" },
+  "darkThemeTooltipTextColor": { "type": "string" },
+  "animation": { "type": "boolean" },
+  "barBorderWidth": { "type": "string" },
+  "barBorderColor": { "type": "string" },
+  "bars": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "field": { "type": "string" },
+        "label": { "type": "string" },
+        "color": { "type": "string" },
+        "show": { "type": "boolean" },
+        "barWidth": { "type": "number" },
+        "fontFamily": { "type": "string" },
+        "fontSize": { "type": "number" }
+      }
+    }
+  },
+  "xAxisField": { "type": "string" },
+  "yAxisField": { "type": "string" }
+}
+  

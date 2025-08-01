@@ -1,0 +1,162 @@
+{
+  "rootId": "language-switcher-button",
+  "name": "language-switcher-button",
+  "label": "Language Switcher",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.11.0",
+  "author": "Ilkhom Khamdamov",
+  "description": "Language switcher with theme support",
+  "properties": {
+    "variant": {
+      "type": "string",
+      "enum": ["default", "primary", "secondary", "danger"]
+    },
+    "displayMode": {
+      "type": "string",
+      "enum": ["full", "label", "icon", "auto"],
+      "default": "full"
+    },
+    "styleConfig": {
+      "type": "object",
+      "properties": {
+        "useCustom": { "type": "boolean" },
+        "themeStyle": {
+          "type": "object",
+          "properties": {
+            "quickStyleType": {
+              "type": "string",
+              "enum": ["default", "primary", "secondary", "danger"]
+            }
+          }
+        }
+      }
+    },
+    "uzLabel": {
+      "type": "string",
+      "title": "O‘zbekcha лейбл"
+    },
+    "uzCrylLabel": {
+      "type": "string",
+      "title": "Ўзбекча (Кирил) лейбл"
+    },
+    "ruLabel": {
+      "type": "string",
+      "title": "Русский лейбл"
+    },
+    "bgColor": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "icon": {
+      "type": "object",
+      "properties": {
+        "svg": { "type": "string" },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "color": { "type": "string" }
+          }
+        }
+      }
+    },
+    "iconSize": {
+      "type": "object",
+      "properties": {
+        "width": { "type": "string" },
+        "height": { "type": "string" }
+      }
+    },
+    "iconPosition": {
+      "type": "string",
+      "enum": ["left", "right"]
+    },
+    "textColor": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "hoverBgColor": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "hoverTextColor": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "borderRadius": { "type": "string" },
+    "borderWidth": { "type": "string" },
+    "borderStyle": { "type": "string" },
+    "borderColor": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "hoverBorderColor": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "padding": { "type": "string" },
+    "fontSize": { "type": "string" },
+    "width": { "type": "string" },
+    "height": { "type": "string" },
+    "bgColorDark": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "textColorDark": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "hoverBgColorDark": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "hoverTextColorDark": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "borderColorDark": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    },
+    "hoverBorderColorDark": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "opacity": { "type": "number" }
+      }
+    }
+  }
+}

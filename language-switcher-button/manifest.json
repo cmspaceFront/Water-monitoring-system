@@ -1,0 +1,15 @@
+{
+  "name": "language-switcher-button",
+  "label": "Language Switcher Button",
+  "type": "widget",
+  "version": "1.1.0",
+  "exbVersion": "1.14.0",
+  "author": "Dev",
+  "description": "Widget with configurable styles and locale switching",
+  "translatedLocales": [],
+  "icon": "icon.svg",
+  "supportStyle": true,
+  "properties": {
+    "hasSettingPage": true
+  }
+}
