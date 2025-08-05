@@ -27,6 +27,10 @@
           "default": false
         }
       }
+    },
+    "defaultPageId": {
+      "type": "string",
+      "description": "Default page ID to navigate to when no link config is set"
     }
   }
   
