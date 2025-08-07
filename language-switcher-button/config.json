@@ -55,6 +55,12 @@
       "type": "object",
       "properties": {
         "svg": { "type": "string" },
+        "customIcon": { "type": "string" },
+        "iconType": { 
+          "type": "string", 
+          "enum": ["builtin", "custom"],
+          "default": "builtin"
+        },
         "properties": {
           "type": "object",
           "properties": {
