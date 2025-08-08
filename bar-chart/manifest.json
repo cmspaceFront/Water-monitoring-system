@@ -1,28 +1,29 @@
 {
-  "name": "bar-chart",
-  "label": "Bar Chart",
-  "platform": "EXB",
-  "version": "1.0.0",
-  "exbVersion": "1.12.0",
-  "author": "Ilkhom Khamdamov",
-  "icon": "icon.svg",
-  "description": "Custom bar chart for dam volume",
-  "properties": {
-    "dataSource": {
-      "type": "dataSource",
-      "required": true
-    },
-    "damNameField": {
-      "type": "string"
-    },
-    "volumeField": {
-      "type": "string"
-    },
-    "batimField": {
-      "type": "string"
-    },
-    "siltField": {
-      "type": "string"
+    "name": "bar-chart",
+    "label": "Bar Chart",
+    "platform": "EXB",
+    "version": "1.0.0",
+    "exbVersion": "1.12.0",
+    "author": "Ilkhom Khamdamov",
+    "icon": "icon.svg",
+    "description": "Custom bar chart for dam volume",
+    "properties": {
+      "dataSource": {
+        "type": "dataSource",
+        "required": true
+      },
+      "damNameField": {
+        "type": "string"
+      },
+      "volumeField": {
+        "type": "string"
+      },
+      "batimField": {
+        "type": "string"
+      },
+      "siltField": {
+        "type": "string"
+      }
     }
   }
-}
+  
