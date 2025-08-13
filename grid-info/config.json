@@ -1,1 +1,31 @@
-{}
+{
+  "statsConfig": [
+    {
+      "field": "balandlik",
+      "labelKey": "water_level",
+      "labelText": {
+        "ru": "Уровень воды",
+        "uz": "Suv darajasi",
+        "uzcryl": "Сув даражаси"
+      },
+      "fieldType": "level",
+      "unit": "м"
+    },
+    {
+      "field": "hajm",
+      "labelKey": "water_volume",
+      "labelText": {
+        "ru": "Объем воды",
+        "uz": "Suv hajmi",
+        "uzcryl": "Сув ҳажми"
+      },
+      "fieldType": "volume",
+      "unit": "м³"
+    }
+  ],
+  "gridTemplateColumns": "1fr 1fr",
+  "gridGap": "16px",
+  "cardPadding": "20px",
+  "valueFontSize": "24px",
+  "labelFontSize": "16px"
+}
