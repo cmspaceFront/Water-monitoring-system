@@ -1,0 +1,22 @@
+{
+  "name": "dam-header-widget",
+  "label": "Dam Header Widget",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "Ilkhom Khamdamov",
+  "description": "Header widget for dam information with localization and data source support",
+  "translatedLocales": [
+    "uz",
+    "uzcryl",
+    "ru"
+  ],
+  "icon": "icon.svg",
+  "supportStyle": true,
+  "properties": {
+    "hasSettingPage": true,
+    "hasConfig": true,
+    "supportMapWidget": false,
+    "supportDataSource": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "pdf-viewer-widget",
+  "label": "PDF Viewer Widget",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "You",
+  "description": "Widget that displays PDF files based on selected dam from data source and local storage",
+  "translatedLocales": [
+    "uz",
+    "uzcryl",
+    "ru",
+    "en"
+  ],
+  "icon": "icon.svg",
+  "supportStyle": true,
+  "properties": {
+    "hasSettingPage": true,
+    "hasConfig": true,
+    "supportMapWidget": false,
+    "supportDataSource": true
+  }
+}

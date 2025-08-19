@@ -1,0 +1,198 @@
+{
+  "rootId": "dam-header-widget",
+  "name": "dam-header-widget",
+  "label": "Dam Header Widget",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "Ilkhom Khamdamov",
+  "description": "Header widget for dam information with localization and data source support",
+  "properties": {
+    "useDataSources": {
+      "type": "dataSource",
+      "label": "Data Source",
+      "description": "Select data source for dam information"
+    },
+    "damField": {
+      "type": "string",
+      "default": "name",
+      "label": "Dam Field Name",
+      "description": "Field name in datasource that contains dam identifiers"
+    },
+    "yearField": {
+      "type": "string",
+      "default": "year",
+      "label": "Year Field",
+      "description": "Field name for year information"
+    },
+    "titleFieldRu": {
+      "type": "string",
+      "default": "title_ru",
+      "label": "Russian Title Field",
+      "description": "Field name for Russian dam titles"
+    },
+    "titleFieldUzC": {
+      "type": "string",
+      "default": "title_uz_c",
+      "label": "Uzbek Cyrillic Title Field",
+      "description": "Field name for Uzbek Cyrillic dam titles"
+    },
+    "titleFieldUzL": {
+      "type": "string",
+      "default": "title_uz_l",
+      "label": "Uzbek Latin Title Field",
+      "description": "Field name for Uzbek Latin dam titles"
+    },
+    "userAccessField": {
+      "type": "string",
+      "default": "allowed_users",
+      "label": "User Access Field",
+      "description": "Field name for user access control"
+    },
+    "apiEndpoint": {
+      "type": "string",
+      "label": "API Endpoint",
+      "description": "API endpoint for sending requests"
+    },
+    "apiMethod": {
+      "type": "string",
+      "enum": ["GET", "POST", "PUT", "DELETE"],
+      "default": "GET",
+      "label": "API Method"
+    },
+    "apiHeaders": {
+      "type": "object",
+      "label": "API Headers",
+      "description": "Custom headers for API requests"
+    },
+    "apiBody": {
+      "type": "object",
+      "label": "API Body",
+      "description": "Request body for API calls"
+    },
+    "closeNavigateTo": {
+      "type": "object",
+      "label": "Close Button Navigation",
+      "description": "Navigation target for the close button (Yopish)"
+    },
+    "styleConfig": {
+      "type": "object",
+      "label": "Style Configuration",
+      "properties": {
+        "headerHeight": {
+          "type": "string",
+          "default": "60px",
+          "label": "Header Height"
+        },
+        "backgroundColor": {
+          "type": "object",
+          "properties": {
+            "color": { "type": "string", "default": "#ffffff" },
+            "opacity": { "type": "number", "default": 1 }
+          }
+        },
+        "topStripColor": {
+          "type": "object",
+          "properties": {
+            "color": { "type": "string", "default": "#4a4a4a" },
+            "opacity": { "type": "number", "default": 1 }
+          }
+        },
+        "separatorColor": {
+          "type": "object",
+          "properties": {
+            "color": { "type": "string", "default": "#e0e0e0" },
+            "opacity": { "type": "number", "default": 1 }
+          }
+        },
+        "textColor": {
+          "type": "object",
+          "properties": {
+            "color": { "type": "string", "default": "#333333" },
+            "opacity": { "type": "number", "default": 1 }
+          }
+        },
+        "fontSize": {
+          "type": "string",
+          "default": "14px",
+          "label": "Font Size"
+        },
+        "titleFontSize": {
+          "type": "string",
+          "default": "18px",
+          "label": "Title Font Size"
+        },
+        "fontWeight": {
+          "type": "string",
+          "default": "normal",
+          "label": "Font Weight"
+        },
+        "titleFontWeight": {
+          "type": "string",
+          "default": "bold",
+          "label": "Title Font Weight"
+        },
+        "padding": {
+          "type": "string",
+          "default": "0 20px",
+          "label": "Padding"
+        },
+        "borderRadius": {
+          "type": "string",
+          "default": "0",
+          "label": "Border Radius"
+        },
+        "boxShadow": {
+          "type": "string",
+          "default": "none",
+          "label": "Box Shadow"
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "label": "Localization Settings",
+      "properties": {
+        "downloadPassport": {
+          "uz": {
+            "type": "string",
+            "default": "Скачать паспорт",
+            "label": "O'zbekcha - Скачать паспорт"
+          },
+          "uzcryl": {
+            "type": "string",
+            "default": "Скачать паспорт",
+            "label": "Ўзбекча (Кирил) - Скачать паспорт"
+          },
+          "ru": {
+            "type": "string",
+            "default": "Скачать паспорт",
+            "label": "Русский - Скачать паспорт"
+          }
+        },
+        "close": {
+          "uz": {
+            "type": "string",
+            "default": "Закрыть",
+            "label": "O'zbekcha - Закрыть"
+          },
+          "uzcryl": {
+            "type": "string",
+            "default": "Закрыть",
+            "label": "Ўзбекча (Кирил) - Закрыть"
+          },
+          "ru": {
+            "type": "string",
+            "default": "Закрыть",
+            "label": "Русский - Закрыть"
+          }
+        }
+      }
+    },
+    "damNames": {
+      "type": "object",
+      "label": "Dam Names Localization"
+      
+    }
+  }
+}
