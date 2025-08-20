@@ -162,7 +162,7 @@ export const dambNameTranslations = {
   },
   chorvoq:{
     uz: "Chorvoq suv ombori",
-    ru: "Чарвакское водохранилище",
+    ru: "Водохранилище Чорвок",
     uzcryl: "Чорвоқ сув омбори",
   },
   quyumozor:{//quyimozor
