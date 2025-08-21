@@ -12,7 +12,14 @@
     "hasStyle": true
   },
   "link": { "type": "string" },
-  "buttonText": { "type": "string" },
+  "buttonText": { 
+    "type": "object",
+    "properties": {
+      "uz": { "type": "string" },
+      "uzcryl": { "type": "string" },
+      "ru": { "type": "string" }
+    }
+  },
   "svgMode": { "type": "string", "enum": ["fill", "fit", "stretch"] },
   "svgUrl": { "type": "string" },
   "buttonStyle": {
