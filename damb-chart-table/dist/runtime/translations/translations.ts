@@ -62,3 +62,54 @@ export const attributeTranslations = {
     son: "Сон",
   }
 };
+
+export const translations = {
+  uz: {
+    _widgetLabel: 'Chizma grafigi',
+    zoomIn: 'Kattalashtirish',
+    zoomOut: 'Kichiklashtirish',
+    fullscreen: 'Toʻliq ekran',
+    volume: 'Hajm',
+    height: 'Balandlik',
+    weather: 'Ob-havo',
+    noDataMessage: 'Ma\'lumotlar mavjud emas',
+    noReservoirSelected: 'Suv ombori tanlanmagan',
+    noConfig: 'Konfiguratsiya sozlanmagan',
+    // Заголовки таблицы
+    heightHeader: 'Balandlik (m)',
+    volumeHeader: 'Hajm (mln. m³)',
+    areaHeader: 'Maydon (km²)'
+  },
+  uzcryl: {
+    _widgetLabel: 'Чизма графиги',
+    zoomIn: 'Катталаштириш',
+    zoomOut: 'Кичиклаштириш',
+    fullscreen: 'Тўлиқ экран',
+    volume: 'Ҳажм',
+    height: 'Баландлик',
+    weather: 'Об-ҳаво',
+    noDataMessage: 'Маълумотлар мавжуд эмас',
+    noReservoirSelected: 'Сув омбори танланмаган',
+    noConfig: 'Конфигурация сўзланмаган',
+    // Заголовки таблицы
+    heightHeader: 'Баландлик (м)',
+    volumeHeader: 'Ҳажм (млн. м³)',
+    areaHeader: 'Майдон (км²)'
+  },
+  ru: {
+    _widgetLabel: 'Линейный график',
+    zoomIn: 'Увеличить',
+    zoomOut: 'Уменьшить',
+    fullscreen: 'Полный экран',
+    volume: 'Объем',
+    height: 'Высота',
+    weather: 'Погода',
+    noDataMessage: 'Данные отсутствуют',
+    noReservoirSelected: 'Водохранилище не выбрано',
+    noConfig: 'Конфигурация не настроена',
+    // Заголовки таблицы
+    heightHeader: 'Высота (м)',
+    volumeHeader: 'Объём (млн. м³)',
+    areaHeader: 'Площадь (км²)'
+  }
+};
