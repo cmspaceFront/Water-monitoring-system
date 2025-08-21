@@ -8,8 +8,7 @@
         "uz": "Suv darajasi",
         "uzcryl": "Сув даражаси"
       },
-      "fieldType": "level",
-      "unit": "м"
+      "fieldType": "level"
     },
     {
       "field": "hajm",
@@ -19,8 +18,7 @@
         "uz": "Suv hajmi",
         "uzcryl": "Сув ҳажми"
       },
-      "fieldType": "volume",
-      "unit": "м³"
+      "fieldType": "volume"
     }
   ],
   "gridTemplateColumns": "1fr 1fr",
