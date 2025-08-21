@@ -6,20 +6,13 @@
   "type": "widget",
   "exbVersion": "1.11.0",
   "author": "you",
-  "description": "Кнопка с SVG, стилями, hover, загрузкой SVG по URL, полностью управляется из UI.",
+  "description": "Кнопка с SVG, стилями, hover, загрузкой SVG по URL, полностью управляется из UI. Enhanced with robust navigation logic from region-filter widget.",
   "properties": {
     "hasSettingPage": true,
     "hasStyle": true
   },
   "link": { "type": "string" },
-  "buttonText": { 
-    "type": "object",
-    "properties": {
-      "uz": { "type": "string" },
-      "uzcryl": { "type": "string" },
-      "ru": { "type": "string" }
-    }
-  },
+  "buttonText": { "type": "string" },
   "svgMode": { "type": "string", "enum": ["fill", "fit", "stretch"] },
   "svgUrl": { "type": "string" },
   "buttonStyle": {
@@ -60,5 +53,33 @@
     }
   },
   "imagePosition": { "type": "string", "enum": ["center", "left", "right", "top", "bottom"] },
-  "maintainAspectRatio": { "type": "boolean" }
+  "maintainAspectRatio": { "type": "boolean" },
+  "linkConfig": {
+    "type": "object",
+    "properties": {
+      "value": { "type": "string" },
+      "linkType": { "type": "string", "enum": ["page", "PAGE", "webAddress", "WEB_ADDRESS"] },
+      "openInNewTab": { "type": "boolean" }
+    }
+  },
+  "bgColor": { "type": "string" },
+  "bgColorDark": { "type": "string" },
+  "textColor": { "type": "string" },
+  "textColorDark": { "type": "string" },
+  "hoverBgColor": { "type": "string" },
+  "hoverBgColorDark": { "type": "string" },
+  "hoverTextColor": { "type": "string" },
+  "hoverTextColorDark": { "type": "string" },
+  "borderColor": { "type": "string" },
+  "borderColorDark": { "type": "string" },
+  "hoverBorderColor": { "type": "string" },
+  "hoverBorderColorDark": { "type": "string" },
+  "image": { "type": "object" },
+  "imageDark": { "type": "object" },
+  "imageMode": { "type": "string", "enum": ["fit", "fill", "stretch"] },
+  "borderRadius": { "type": "number" },
+  "borderWidth": { "type": "string" },
+  "borderStyle": { "type": "string" },
+  "padding": { "type": "string" },
+  "fontSize": { "type": "number" }
 } 
