@@ -1,0 +1,21 @@
+{
+  "name": "region-dam-filter-flat",
+  "label": "Region Dam Filter (Flat)",
+  "version": "1.0.0",
+  "exbVersion": "1.11.0",
+  "type": "widget",
+  "framework": "react",
+  "publishMessages": [
+    "STRING_SELECTION_CHANGE",
+    "DATA_RECORDS_SELECTION_CHANGE"
+  ],
+  "messageActions": [
+    {
+      "name": "query",
+      "label": "Query",
+      "uri": "actions/query-action",
+      "settingUri": "actions/query-action-setting"
+    }
+  ],
+  "properties": {}
+}
