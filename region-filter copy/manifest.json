@@ -1,0 +1,20 @@
+{
+  "name": "region-filter",
+  "label": "Region Filter",
+  "type": "widget",
+  "version": "1.0.0",
+  "hasSettingPage": true,
+  "messageActions": [
+    {
+      "name": "query",
+      "label": "Query",
+      "uri": "actions/query-action",
+      "settingUri": "actions/query-action-setting"
+    }
+  ],
+  "properties": {
+    "stateProps": [
+      "queryString"
+    ]
+  }
+}
