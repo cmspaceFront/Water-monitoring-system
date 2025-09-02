@@ -54,6 +54,7 @@
           "strokeWidth": { "type": "number" },
           "pointRadius": { "type": "number" },
           "show": { "type": "boolean" },
+          "overlap": { "type": "boolean" },
           "lineStyle": {
             "type": "string",
             "enum": ["monotone", "linear", "step", "basis"]
@@ -133,6 +134,22 @@
       "enum": ["left", "right"], 
       "title": "Позиция календаря",
       "description": "Расположение календаря относительно выбора годов"
+    },
+    
+    "levelLabelUz": { 
+      "type": "string", 
+      "title": "Лейбл Level на узбекском (латиница)",
+      "description": "Название линии Level на узбекском языке (латиница)"
+    },
+    "levelLabelUzCryl": { 
+      "type": "string", 
+      "title": "Лейбл Level на узбекском (кириллица)",
+      "description": "Название линии Level на узбекском языке (кириллица)"
+    },
+    "levelLabelRu": { 
+      "type": "string", 
+      "title": "Лейбл Level на русском",
+      "description": "Название линии Level на русском языке"
     }
   }
 }

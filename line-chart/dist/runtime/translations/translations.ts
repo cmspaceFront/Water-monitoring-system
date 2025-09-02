@@ -8,6 +8,8 @@ export const attributeTranslations = {
     orig_fid: "Orig FID",
     balandlik: "Balandlik",
     hajm: "Hajm",
+    level: "Suv sensori",
+    level_: "Suv sensori",
     sana: "Sana",
     suv_ombori: "Suv ombori",
     yil: "Yil",
@@ -28,6 +30,8 @@ export const attributeTranslations = {
     orig_fid: "Оригинальный FID",
     balandlik: "Высота",
     hajm: "Объем",
+    level: "Сенсор воды",
+    level_: "Сенсор воды",
     sana: "Дата",
     suv_ombori: "Водохранилище",
     yil: "Год",
@@ -48,6 +52,8 @@ export const attributeTranslations = {
     orig_fid: "Оригинал FID",
     balandlik: "Баландлик",
     hajm: "Ҳажм",
+    level: "Сув сенсори",
+    level_: "Сув сенсори",
     sana: "Сана",
     suv_ombori: "Сув омбори",
     yil: "Йил",
@@ -180,7 +186,7 @@ export const dambNameTranslations = {
     ru: "Шуркульское водохранилище",
     uzcryl: "Шўркўл сув омбори",
   },
-  qorasuv:{
+  qorasuvnamangan:{
     uz: "Qorasuv suv ombori(Namangan)",
     ru: "Корасувсукое водохранилище(Наманган)",
     uzcryl: "Қорасув сув омбори(Наманган)",
@@ -285,10 +291,10 @@ export const dambNameTranslations = {
     ru: "Центральное Ферганское водохранилище",
     uzcryl: "Марказий Фарғона сув омбори",
   },
-  qarasuv:{
-    uz: "Qorasuv suv ombori",
-    ru: "Водохранилище Карасув",
-    uzcryl: "Қорасув сув омбори",
+  qorasuvsamarqand:{
+    uz: "Qorasuv suv ombori(Samarqand)",
+    ru: "Водохранилище Карасув(Самарканд)",
+    uzcryl: "Қорасув сув омбори(Самарқанд)",
   },
   qalqama:{
     uz: "Qalqama sel ombori",
