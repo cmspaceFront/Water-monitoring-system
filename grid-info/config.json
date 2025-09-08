@@ -22,6 +22,7 @@
     }
   ],
   "gridTemplateColumns": "1fr 1fr",
+  "gridOrientation": "horizontal",
   "gridGap": "16px",
   "cardPadding": "20px",
   "valueFontSize": "24px",
