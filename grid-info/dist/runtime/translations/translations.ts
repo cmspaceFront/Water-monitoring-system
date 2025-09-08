@@ -265,8 +265,8 @@ export const dambNameTranslations = {
       ru: "Водохранилище Моминабад",
       uzcryl: "Мўминобод сув омбори",
     }, //yo'q
-    kokseraskoy:{
-      uz: "Ko'kseraksoy suv ombori",
+    koksereksoy:{
+      uz: "Ko'kserksoy suv ombori",
       ru: "Водохранилище Коксарексай",
       uzcryl: "Кўксераксой сув омбори",
     },
