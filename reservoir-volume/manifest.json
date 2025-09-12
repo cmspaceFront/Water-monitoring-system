@@ -1,0 +1,28 @@
+{
+  "name": "reservoir-volume",
+  "label": "Reservoir Volume",
+  "platform": "EXB",
+  "version": "1.0.0",
+  "exbVersion": "1.12.0",
+  "author": "Custom Developer",
+  "icon": "icon.svg",
+  "description": "Reservoir volume visualization with water and silt layers",
+  "properties": {
+    "dataSource": {
+      "type": "dataSource",
+      "required": true
+    },
+    "damNameField": {
+      "type": "string"
+    },
+    "volumeField": {
+      "type": "string"
+    },
+    "batimField": {
+      "type": "string"
+    },
+    "siltField": {
+      "type": "string"
+    }
+  }
+}
