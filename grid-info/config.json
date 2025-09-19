@@ -26,5 +26,10 @@
   "gridGap": "16px",
   "cardPadding": "20px",
   "valueFontSize": "24px",
-  "labelFontSize": "16px"
+  "labelFontSize": "16px",
+  "labelValueFlexDirection": "row",
+  "labelValueJustifyContent": "center",
+  "labelValueFlexGap": "8px",
+  "showLabelValueFlexGap": true,
+  "showColonSeparator": true
 }
