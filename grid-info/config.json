@@ -31,5 +31,6 @@
   "labelValueJustifyContent": "center",
   "labelValueFlexGap": "8px",
   "showLabelValueFlexGap": true,
-  "showColonSeparator": true
+  "showColonSeparator": true,
+  "labelDateGap": "4px"
 }
