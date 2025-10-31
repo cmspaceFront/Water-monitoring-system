@@ -1,0 +1,13 @@
+{
+  "name": "monitoring-table",
+  "label": "Monitoring Table",
+  "description": "Display monitoring data in a sortable table with mobile responsive design",
+  "version": "1.0.0",
+  "exbVersion": "1.11.0",
+  "author": "Ilkhom Khamdamov",
+  "icon": "icon.svg",
+  "properties": {
+    "hasSettingPage": true,
+    "hasStyle": true
+  }
+}

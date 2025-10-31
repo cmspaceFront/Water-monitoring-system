@@ -1,0 +1,21 @@
+{
+  "name": "detailed-object-widget",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.12.0",
+  "author": "Custom",
+  "description": "Detailed Object Widget - displays comprehensive information about mining objects",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "objectId": ""
+  },
+  "translatedLocales": [
+    "en",
+    "ru"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 600
+  }
+}
