@@ -7,17 +7,26 @@ export default {
     error_no_id: 'ID объекта отсутствует',
     loading_data: 'Загрузка данных...',
     error_not_found: 'Объект не найден',
+    no_data: 'Нет данных',
     
     // Navigation
     info: 'Информация',
     calculate: 'Расчёт',
     docs: 'Документы',
+    info_about_object: 'Информация об объекте',
+    calculate_monitoring: 'Расчёт мониторинга',
+    docs_history: 'История документов',
+    back_to_list: 'Назад к списку',
+    delete: 'Удалить',
+    delete_error: 'Произошла ошибка при удалении',
     
     // Info
-    info_title: 'Информация об объекте',
+    info_title: 'Информация об участке добычи',
     name: 'Название',
-    owner_tin: 'ИНН владельца',
+    company_name: 'Наименование компании',
+    owner_tin: 'ИНН объекта',
     license_number: 'Номер лицензии',
+    license_expiry: 'Истечение срока лицензии:',
     date: 'Дата',
     object_type: 'Тип объекта',
     location: 'Местоположение',
@@ -30,16 +39,41 @@ export default {
     object_type_3: 'Тип 3',
     
     // Calculate
-    calculate_title: 'Файлы',
-    initial_map: 'Начальная карта',
-    upload_map: 'Загрузить новую карту',
-    uploaded_map: 'Загруженная карта',
-    difference_map: 'Карта разницы',
-    upload_file: 'Нажмите для загрузки файла',
-    format_archive: 'Формат: .ZIP / .RAR',
+    calculate_title: 'Вычисление с помощью аэрокосмического мониторинга:',
+    initial_map: 'Исходная карта:',
+    upload_map: 'Загрузить новую карту:',
+    uploaded_map: 'Новая карта:',
+    difference_map: 'Вычисленная карта:',
+    upload_file: 'Загрузить файл',
+    format_archive: 'Формат файла .ZIP / .RAR',
     file_absent: 'Файл отсутствует',
     loading_message: 'Загрузка...',
-    no_files: 'Нет файлов',
+    no_files: 'Нет доступных файлов',
+    file_not_available: 'Файл не доступен',
+    
+    // Stats
+    aerospace_monitoring: 'Аэрокосмический мониторинг',
+    tax_information: 'Налоговая информация',
+    total_sum: 'Общая сумма',
+    calculated_difference: 'Вычисленная разница',
+    unknown: 'Неизвестно',
+    
+    // Volumes
+    volumes_results_title: 'Результаты расчёта объёмов',
+    volumes_licensed_and_adjacent: 'Лицензионный участок и прилегающая территория',
+    volumes_licensed_area: 'Лицензионный участок',
+    volumes_beyond_boundary: 'Выход за границу лицензионного участка',
+    volumes_excavation: 'Выемка',
+    volumes_embankment: 'Насыпь',
+    volumes_info_modal_title: 'Объём выемки и насыпи',
+    volumes_info_modal_description: 'Объём выемки и насыпи внутри лицензионного участка рассчитывается по спутниковым данным. На карте показаны границы лицензионной территории и зоны изменений рельефа.',
+    information: 'Информация',
+    
+    // Upload Snackbar
+    uploading: 'Загрузка...',
+    upload_successful: 'Загрузка успешна',
+    upload_error: 'Ошибка загрузки',
+    reload: 'Перезагрузить',
     
     // Stats
     monitoring: 'Мониторинг',
@@ -60,21 +94,34 @@ export default {
     // Visualization
     visualization_load_error: 'Ошибка загрузки визуализации',
     visualization_unavailable: 'Визуализация недоступна',
+    visualization_downloading: 'Скачивание...',
+    visualization_download_error: 'Ошибка скачивания',
     
     // Docs
     uploading_files: 'Загрузка файлов...',
+    docs_date: 'Дата:',
     
     // Delete
-    delete_title: 'Подтверждение удаления',
-    delete_text: 'Вы уверены, что хотите удалить эти данные изображения?',
+    delete_title: 'Удаление данных',
+    delete_text: 'Вы действительно хотите удалить данные расчёта?',
+    
+    // Unauthorized
+    access_denied: 'Доступ запрещен',
+    access_denied_message: 'У вас нет доступа к этому контенту. Пожалуйста, войдите в систему, чтобы продолжить.',
+    possible_reasons: 'Возможные причины:',
+    not_authorized: 'Вы не авторизованы в системе',
+    session_expired: 'Ваша сессия истекла',
+    insufficient_rights: 'У вас недостаточно прав для просмотра',
+    object_id_not_found: 'ID объекта не найден в localStorage (ключ: "attribute-id")',
+    object_not_found: 'Объект не найден',
   },
   
   // Buttons
   buttons: {
     download: 'Скачать',
     upload: 'Загрузить',
-    calculate: 'Рассчитать',
-    calculating: 'Расчёт...',
+    calculate: 'Расчитать и Сохранить',
+    calculating: 'Обработка...',
     cancel: 'Отмена',
     delete: 'Удалить',
     close: 'Закрыть',
@@ -95,11 +142,11 @@ export default {
   
   // Steps
   steps: {
-    step_0: 'Шаг 0',
-    step_1: 'Шаг 1',
-    step_2: 'Шаг 2',
-    step_3: 'Шаг 3',
-    step_4: 'Шаг 4',
+    step_0: 'Проверка не проведена',
+    step_1: 'Проверка проведена',
+    step_2: 'Согласование с уполномоченным органом',
+    step_3: 'Проверка субъекта предпринимательства',
+    step_4: 'Сформление акта',
   },
   
   unknown: 'Неизвестно',
