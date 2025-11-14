@@ -1,0 +1,46 @@
+{
+    "yearField": "made_year",
+    "sessionStorageKey": "selected-year",
+    "buttonStyle": {
+      "default": {
+        "background": "#fafafa",
+        "color": "#181923",
+        "borderColor": "#f1f1f4",
+        "borderWidth": "1.5px",
+        "borderRadius": "16px",
+        "fontSize": "20px",
+        "fontWeight": "600"
+      },
+      "hover": {
+        "background": "#e7eaf0",
+        "color": "#222"
+      },
+      "active": {
+        "background": "#181923",
+        "color": "#fff"
+      }
+    },
+    "itemStyle": {
+      "default": {
+        "background": "#fff",
+        "color": "#181923",
+        "borderRadius": "12px",
+        "fontSize": "18px",
+        "fontWeight": "600"
+      },
+      "hover": {
+        "background": "#f5f6fa",
+        "color": "#222"
+      },
+      "active": {
+        "background": "#181923",
+        "color": "#fff"
+      }
+    },
+    "icon": {
+      "svg": "<svg ...></svg>",
+      "position": "left",
+      "size": "26px"
+    }
+  }
+  
