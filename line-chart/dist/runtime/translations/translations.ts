@@ -386,6 +386,11 @@ export const dambNameTranslations = {
     ru: "Шоробсойское водохранилище",
     uzcryl: "Шўробсой сув омбори",
   }
+  andijon:{
+    uz: "Andijon suv ombori",
+    ru: "Андижанское водохранилище",
+    uzcryl: "Андижон сув омбори",
+  }
 };
 
 
