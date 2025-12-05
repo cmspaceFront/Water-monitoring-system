@@ -1,0 +1,21 @@
+{
+  "name": "atmosphere-monitoring-widget",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.12.0",
+  "author": "Ilkhom Khamdamov",
+  "description": "Atmosphere Monitoring Widget with ArcGIS Map and Line Chart",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true
+  },
+  "translatedLocales": [
+    "en",
+    "ru"
+  ],
+  "defaultSize": {
+    "width": 1200,
+    "height": 800
+  }
+}
