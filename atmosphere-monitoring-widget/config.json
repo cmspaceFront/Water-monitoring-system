@@ -1,4 +1,4 @@
 {
-  "apiBaseUrl": "https://d0cfb50d6466.ngrok-free.app",
+  "apiBaseUrl": "http://10.0.90.36:8121",
   "imageServerUrl": "https://sgm.uzspace.uz/image/rest/services/Atmosphere_CH4_plume/ImageServer"
 }
