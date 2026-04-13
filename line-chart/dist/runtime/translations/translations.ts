@@ -69,6 +69,13 @@ export const attributeTranslations = {
   }
 };
 
+/** Подпись в тултипе при облачной съёмке (в скобках после «-»). */
+export const tooltipCloudyHint: Record<"ru" | "uz" | "uzcryl", string> = {
+  ru: "облачно",
+  uz: "bulutli",
+  uzcryl: "булутли",
+};
+
 // Локализации названий дамб
 export const dambNameTranslations = {
   todakol: {
