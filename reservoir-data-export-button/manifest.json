@@ -1,0 +1,21 @@
+{
+  "name": "reservoir-data-export-button",
+  "label": "Экспорт данных водохранилищ (Excel)",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "",
+  "description": "Кнопка: фильтры по региону и водохранилищу, выгрузка CSV (UTF-8) для открытия в Excel из источника данных.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "supportStyle": true,
+  "icon": "icon.svg",
+  "properties": {
+    "hasSettingPage": true
+  },
+  "translatedLocales": [],
+  "defaultSize": {
+    "width": 200,
+    "height": 40
+  }
+}
