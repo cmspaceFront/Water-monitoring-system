@@ -299,9 +299,9 @@ export const dambNameTranslations = {
     uzcryl: "Марказий Фарғона сув омбори",
   },
   qorasuvsamarqand:{
-    uz: "Qorasuv suv ombori",
-    ru: "Корасувское водохранилище",
-    uzcryl: "Қорасув сув омбори",
+    uz: "Qorasuvsamarqand suv ombori",
+    ru: "Корасувское водохранилище (Самарканд)",
+    uzcryl: "Қорасувсамарқанд сув омбори",
   },
   qalqama:{
     uz: "Qalqama sel ombori",
